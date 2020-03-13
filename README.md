@@ -2,7 +2,7 @@
 ・MySQLを用いたGoogle Mapsへの吹き出し付きマーカー表示
 
 ## Description　説明
-・MySQL（phpmyadmin）使用<br>
+・MySQL（phpmyadmin）使用br
 ・吹き出しクリックで拠点名称表示<br>
 ・①自動証明写真機、②店舗内スタジオ撮影、③①と②両方にて、マーカーデザインを変更。<br>
 
@@ -16,7 +16,7 @@
 ・Google Mapsでは、マップ上のマーカー配置や住所では、その場所をすぐに認識できませんが、本マップであればマーカー表示にて出店先情報が容易に確認できます。
 
 ## Requirement　要件
-・PHP 7.2.21
+・PHP 7.2.21<br>
 ・phpMyAdmin 4.9.0.1
 
 ## Usage　使用法
