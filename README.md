@@ -2,9 +2,9 @@
 MySQLを用いたGoogle Mapsへの吹き出し付きマーカー表示
 
 ## Description　説明
-・MySQL（phpmyadmin）使用
-・吹き出しクリックで拠点名称表示
-・①自動証明写真機、②店舗内スタジオ撮影、③①と②両方にて、マーカーデザインを変更。
+・MySQL（phpmyadmin）使用<br>
+・吹き出しクリックで拠点名称表示<br>
+・①自動証明写真機、②店舗内スタジオ撮影、③①と②両方にて、マーカーデザインを変更。<br>
 
 <img width="1000" alt="Map" src="https://user-images.githubusercontent.com/55599388/76425032-6835a800-63ec-11ea-8e4e-47afdd2af818.png"><br>
 
