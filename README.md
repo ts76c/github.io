@@ -1,4 +1,33 @@
-# MySQLを用いたGoogle Mapsへの吹き出し付きマーカー表示
+# 東北６県の証明写真撮影マップ
+Name
+====
+
+Overview 概要
+MySQLを用いたGoogle Mapsへの吹き出し付きマーカー表示
+
+## Description
+
+## Demo
+
+## VS. 
+
+## Requirement
+
+## Usage
+
+## Install
+
+## Contribution
+
+## Licence
+
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
+## Author
+
+[tcnksm](https://github.com/tcnksm)
+
+
 <img width="1000" alt="Map" src="https://user-images.githubusercontent.com/55599388/76425032-6835a800-63ec-11ea-8e4e-47afdd2af818.png"><br>
 ・map.phpが起動ファイルになります。<br>
 ・データベース情報やAPIkeyは環境に応じて変更をお願い致します。<br>
