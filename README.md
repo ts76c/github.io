@@ -1,8 +1,5 @@
 # 東北６県の証明写真撮影マップ
-Name
 ====
-
-Overview 概要
 MySQLを用いたGoogle Mapsへの吹き出し付きマーカー表示
 
 ## Description
