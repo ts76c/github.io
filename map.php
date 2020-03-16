@@ -29,6 +29,6 @@
 	</div>
 	<script src="./map.js"></script>
 	<!--API keyは、環境に応じて変更をお願い致します。-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=xxxxxxxxxxxxxxxxx&callback=initMap"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=<?php echo $API_key; ?>&callback=initMap"></script>
 	</body>
 </html>
