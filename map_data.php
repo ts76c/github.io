@@ -20,36 +20,36 @@ $sql = "SELECT name,lat,lng,icon FROM geo_locations";
 $res = $mysqli->query($sql);
 
 print '
-$A = "img/booth&man.jpg";
-$B = "img/camera_booth.png";
-$C = "img/camera_man.png";
+$A = "booth&man.jpg";
+$B = "camera_booth.png";
+$C = "camera_man.png";
 
 // マーカーを立てる場所名・緯度・経度
-markerData = [ 
-	{';
+markerData = [{';
 
-	$i = 0;
-	while( $data = $res->fetch_assoc() ) {
+$i = 0;
+while( $data = $res->fetch_assoc() ) {
 
-		$name = $data['name'];	
-		$lat = $data['lat'];
-		$lng = $data['lng'];
-		$icon = $data['icon'];
+	$name = $data['name'];	
+	$lat = $data['lat'];
+	$lng = $data['lng'];
+	$icon = $data['icon'];
 
-		print 'name:"'. $name . '",';
-		print 'lat:'. $lat . ',';
-		print 'lng:'. $lng . ',';
-		print 'icon:'. $icon;
+	print 'name:"'. $name . '",';
+	print 'lat:'. $lat . ',';
+	print 'lng:'. $lng . ',';
+	print 'icon:'. $icon;
 
-		if (($res->num_rows) == ($i + 1)) {
-			// 最後のレコードだったら
-			print '}]';
-		} else {
-			// それ以外
-			print '},{';
-		}
-		$i++;
+	if (($res->num_rows) == ($i + 1)) {
+		// 最後のレコードだったら
+		print '}]';
+	} else {
+		// それ以外
+		print '},{';
 	}
+	$i++;
+}
+$res->free();
 $mysqli->close();
 
 ?>
