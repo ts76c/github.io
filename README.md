@@ -20,6 +20,8 @@
 ・phpMyAdmin 4.9.0.1（MySQL 5.7.26）
 
 ## Usage　使用法
+・sqlフォルダ内「ID-photos-Maps.sql」でtable作成が可能です。<br>
+（データは非公表となります。ご了承ください。）<br>
 ・map.phpが起動ファイルになります。<br>
 ・ini.phpのデータベース情報やAPIkeyは環境に応じて変更をお願い致します。<br>
 ・JPG1つとPNG2つのファイルは、マーカー画像になります。
