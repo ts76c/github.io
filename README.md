@@ -17,7 +17,7 @@
 
 ## Requirement　要件
 ・PHP 7.2.21<br>
-・phpMyAdmin 4.9.0.1
+・phpMyAdmin 4.9.0.1（MySQL 5.7.26）
 
 ## Usage　使用法
 ・map.phpが起動ファイルになります。<br>
