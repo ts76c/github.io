@@ -4,9 +4,9 @@
 ## Description　説明
 ・MySQL（phpmyadmin）使用<br>
 ・吹き出しクリックで拠点名称表示<br>
-・①自動証明写真機<br>
-　②店舗内スタジオ撮影<br>
-　③①と②両方<br>
+・① 自動証明写真機<br>
+　② 店舗内スタジオ撮影<br>
+　③ ①と②両方<br>
 にて、マーカーデザインを変更。<br>
 
 ## Demonstration
