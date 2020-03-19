@@ -20,9 +20,9 @@ $sql = "SELECT name,lat,lng,icon FROM geo_locations";
 $res = $mysqli->query($sql);
 
 print '
-$A = "booth&man.jpg";
-$B = "camera_booth.png";
-$C = "camera_man.png";
+$A = "./img/booth&man.jpg";
+$B = "./img/camera_booth.png";
+$C = "./img/camera_man.png";
 
 // マーカーを立てる場所名・緯度・経度
 markerData = [{';

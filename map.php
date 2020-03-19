@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>仙台市中心部で証明写真が撮影できるところ</title>
+		<!--ファビコンを適用-->
+		<link rel="icon" href="./img/favicon.ico">
 		<style type="text/css">
 			#container {
 				width: 1000px;
