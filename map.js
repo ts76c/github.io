@@ -46,9 +46,14 @@ function initMap() {
 
 // マーカーにクリックイベントを追加
 function markerEvent(i) {
-  // マーカーをクリックしたとき
-  marker[i].addListener('click', function() { 
+  // マーカー上にマウスが乗った時
+  marker[i].addListener('mouseover', function() { 
     // 吹き出しの表示
     infoWindow[i].open(map, marker[i]); 
+  });
+  // マーカー上よりマウスが外れた時
+  marker[i].addListener('mouseout', function () {
+    // 吹き出しの非表示
+    infoWindow[i].close();
   });
 }
