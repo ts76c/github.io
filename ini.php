@@ -11,11 +11,11 @@ define("_DB_TYPE", "mysql");
 // データベースホスト名
 define("_DB_HOST", "localhost");
 // データベース接続ユーザー名
-define("_DB_USER", "ID_photos_user");
+define("_DB_USER", "iduser");
 // データベース接続パスワード
 define("_DB_PASS", "password");
 // データベース名
-define("_DB_NAME", "dbID_photos");
+define("_DB_NAME", "dbidphotos");
 // テーブル名
 define("_TABLE_NAME", "geo_locations");
 
